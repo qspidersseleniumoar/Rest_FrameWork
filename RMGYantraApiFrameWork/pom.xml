@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RMGYantraApiFrameWork</groupId>
+  <artifactId>RMGYantraApiFrameWork</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    <dependencies>
+ 
+
+   <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.5</version>
+</dependency>
+
+   
+   				<dependency>
+				    <groupId>org.apache.poi</groupId>
+				    <artifactId>poi</artifactId>
+				    <version>3.17</version>
+				</dependency>
+				<dependency>
+				    <groupId>org.apache.poi</groupId>
+				    <artifactId>poi-ooxml</artifactId>
+				    <version>3.17</version>
+				</dependency>
+				
+				
+     <dependency>
+		 <groupId>org.testng</groupId>
+		 <artifactId>testng</artifactId>
+	     <version>6.8</version>
+	 </dependency>
+	 
+        <dependency>
+       <groupId>io.rest-assured</groupId>
+       <artifactId>rest-assured</artifactId>
+       <version>3.0.2</version>
+    </dependency>
+    
+    <dependency>
+       <groupId>com.googlecode.json-simple</groupId>
+       <artifactId>json-simple</artifactId>
+       <version>1.1.1</version>
+   </dependency>
+   <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>3.0.2</version>
+</dependency>
+
+
+
+
+<dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>java-hamcrest</artifactId>
+    <version>2.0.0.0</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>3.0.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-mapper-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-core-asl</artifactId>
+    <version>1.9.13</version>
+</dependency>
+
+
+  </dependencies>
+  
+  
+</project>
